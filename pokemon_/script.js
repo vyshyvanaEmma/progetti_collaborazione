@@ -14,5 +14,6 @@ async function stampaListaPokemon(){
         option.textContent = pokemon.name;
         listaPokemon.append(option);
     }
-
 }
+
+document.addEventListener('DOMContentLoaded', stampaListaPokemon);
